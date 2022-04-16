@@ -1,6 +1,6 @@
 <?php
 
-$dsn = 'mysql:dbname=esmashop;host=3.94.61.123';
+$dsn = '3.94.61.123';
 $user = 'hieuhd';
 $pass = '123@123a';
 $option = array(
