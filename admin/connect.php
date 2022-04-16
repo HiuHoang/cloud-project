@@ -10,11 +10,6 @@ $database = 'esmashop';
 
 // try {
 $con = mysqli_connect($servername, $username, $password, $database);
-if (!$con) {
-	echo "Connection Fail";
-} else {
-	echo "Connection Success";
-}
 	//$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 // } catch (PDOException $e) {
 // 	echo 'Failed To Connect' . $e->getMessage();
