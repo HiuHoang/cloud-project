@@ -20,7 +20,7 @@
 
 	$stmt2->execute();
 
-	$cats = $stmt2->fetchAll(); 
+	$cats = $stmt2->fetch(); 
 
 	
 ?>
